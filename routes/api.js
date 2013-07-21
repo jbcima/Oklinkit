@@ -100,8 +100,8 @@ exports.addRequest = function(req, res) {
     var p = req.body;
     var newCatchall = new Catchall({
         'request': {
-           'author': p.author || "Joe@gmail.com",
-           'name': p.name || "Joe Shmoe",
+           'author': p.author || "Bo@gmail.com",
+           'name': p.name || "Bo Lau",
            'description': p.description || "I'm looking for an interior designer to redesign my apartment",
            'date': p.date || "20130715",
            'expired': p.expired || false,
@@ -158,7 +158,7 @@ exports.getAllRequestsWithMe = function(req, res) {
 
 exports.addResponse = function(req, res) {
     var p = req.body;
-    var reqId = req.param('reqId') || '51eb95fa4c896b32803e4c43';
+    var reqId = req.param('reqId') || '51ebf06f59e53ecf30000002';
     // comma separated list
     var recommendList = req.param('recommended') || "Joe@gmail.com";
     var newResponse = {

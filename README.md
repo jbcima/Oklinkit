@@ -17,6 +17,8 @@ Follow this tutorial [here](http://docs.mongodb.org/manual/tutorial/install-mong
 Make sure your mongo daemon is running, and go to the top level of your directory, and type
 ```
 mongoimport --collection catchall --file db/collection.json --db oklinkit --upsert
+
+mongoimport --collection catchalls --file db/catchalls.json --db oklinkit --upsert
 ```
 
 This should insert the documents into the catchall collection within the oklinkit database
