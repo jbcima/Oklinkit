@@ -99,6 +99,8 @@ app.get('/fb/friends', function(req, res) {
 
 // DB calls
 app.get('/users/add', api.addUser);
+app.get('/user/requests', api.getAllUserRequests);
+app.get('/users/requests/me', api.getAllRequestsWithMe);
 app.get('/users', api.getAllUsers);
 app.get('/requests/add', api.addRequest);
 app.get('/requests', api.getAllRequests);

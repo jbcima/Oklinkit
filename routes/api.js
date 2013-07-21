@@ -22,6 +22,7 @@ db.once('open', function() {
     // User collection
     var UserSchema = mongoose.Schema({
         'user': String,
+        'name' : String,
         'password': String
     });
 
@@ -29,16 +30,18 @@ db.once('open', function() {
     var CatchallSchema = mongoose.Schema({
         'request': {
            'author': String,
+           'name': String,
            'description': String,
            'date': String,
            'expired': Boolean,
            'willing_to_pay': String
-              },
+          },
          'responses': [
              {
                'author': String,
+               'name': String,
                'body': String,
-               'recommend': [String]
+               'recommend': String
              }
            ],
          'hiree':
@@ -68,7 +71,8 @@ exports.addUser = function (req, res) {
     var p = req.body;
 
     var newUser = new User({
-        'user': p.user || "Michael@gmail.com",
+        'user': p.user || "Joe@gmail.com",
+        'name': p.name || "Joe Shmoe",
         'password': p.password || "lol"
     });
 
@@ -81,7 +85,8 @@ exports.addUser = function (req, res) {
 
 exports.getAllUsers = function (req, res) {
     var user = new User();
-    user.user = "Jacqueline";
+    user.user = "Jacqueline@gmail.com";
+    user.name = "Jackqueline Ho";
     user.password = "lol";
     user.save();
     User.find(function (err, kittens) {
@@ -95,12 +100,13 @@ exports.addRequest = function(req, res) {
     var p = req.body;
     var newCatchall = new Catchall({
         'request': {
-           'author': p.author || "Michael@gmail.com",
+           'author': p.author || "Joe@gmail.com",
+           'name': p.name || "Joe Shmoe",
            'description': p.description || "I'm looking for an interior designer to redesign my apartment",
            'date': p.date || "20130715",
            'expired': p.expired || false,
            'willing_to_pay': p.willing_to_pay || false,
-              },
+        },
          'responses': [],
          'hiree': {}
     });
@@ -120,14 +126,45 @@ exports.getAllRequests = function(req, res) {
    });
 }
 
+// Get all requests I made
+exports.getAllUserRequests = function(req, res) {
+    var p = req.body;
+    var author = p.author || "Joe@gmail.com"
+    Catchall.find({'request.author' : author}, "request", function (err, kittens) {
+      if (err) // TODO handle err
+        console.log(err);
+      console.log(kittens)
+    });
+}
+
+// Get all requests where I'm recommended
+exports.getAllRequestsWithMe = function(req, res) {
+    var p = req.body;
+    var author = p.author || "Joe@gmail.com";
+    Catchall.find(
+        {
+        'responses.recommend' : {
+          $regex : author,
+          $options: 'i'
+         }
+        }, "request", function (err, kittens) {
+      if (err) // TODO handle err
+        console.log(err);
+      console.log(kittens)
+    });
+    // find all the requests that have me in the recommendation
+}
+
 exports.addResponse = function(req, res) {
     var p = req.body;
     var reqId = req.param('reqId') || '51ebd277441ee9172a000002';
-    var recommendList = req.param('recommended') || "Michael@gmail.com, janebrucelee@gmail.com";
+    // comma separated list
+    var recommendList = req.param('recommended') || "Michael@gmail.com, janebrucelee@gmail.com, Joe@gmail.com";
     var newResponse = {
         'author' : p.author || "janebrucelee@gmail.com",
+        'name' : p.name || "Jane Lee",
         'body' : p.body || "Yo I'll solve it ok? geez",
-        'recommend': [recommendList]
+        'recommend': recommendList
     }
 
     // Update call
@@ -136,7 +173,7 @@ exports.addResponse = function(req, res) {
         { $push: { responses: newResponse } },
         { upsert: false },
         function(err){
-            if(err) 
+            if(err)
                 console.log("Failed to add response " + err);
             console.log("Yay, added response");
         }
