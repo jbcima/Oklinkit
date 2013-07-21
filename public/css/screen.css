@@ -718,3 +718,7 @@ body {
 /* line 189, ../sass/screen.scss */
 .icon-frown {
   color: #FF410A; }
+
+/* line 194, ../sass/screen.scss */
+.icon-plus {
+  color: white !important; }
