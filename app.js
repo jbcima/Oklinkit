@@ -53,6 +53,8 @@ app.get('/partials/:name', routes.partials);
 
 app.get('/can', routes.can);
 
+app.get('/want', routes.want);
+
 // JSON API
 app.get('/api/name', api.name);
 

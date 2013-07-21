@@ -310,6 +310,244 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     background-color: #c8f576;
     box-shadow: 0 0 0 3px #fff, 0 0 0 4px #2CAC21; }
 
+/* line 2, ../sass/want.scss */
+#want #quote {
+  width: 80%;
+  padding: 20px;
+  background-color: #e9ede0;
+  border: 4px solid rgba(45, 0, 0, 0.1);
+  border-radius: 2px;
+  margin: 110px auto 0px;
+  position: relative;
+  text-align: center; }
+  /* line 10, ../sass/want.scss */
+  #want #quote h2 div {
+    font-size: 0.375em;
+    line-height: 4em;
+    color: #2D0000;
+    display: inline-block; }
+  /* line 15, ../sass/want.scss */
+  #want #quote h2, #want #quote span, #want #quote .fixdiv {
+    font-weight: 500;
+    font-size: 2.25em;
+    line-height: 1.33333em;
+    width: 80%;
+    text-align: left;
+    margin: 0px auto; }
+  /* line 23, ../sass/want.scss */
+  #want #quote textarea {
+    background-color: white;
+    border: 4px solid rgba(45, 0, 0, 0.1);
+    width: 80%;
+    height: 150px;
+    padding: 10px; }
+  /* line 30, ../sass/want.scss */
+  #want #quote .biginput input {
+    width: 100% !important; }
+  /* line 33, ../sass/want.scss */
+  #want #quote input {
+    float: left;
+    background-color: white;
+    border: 4px solid rgba(45, 0, 0, 0.1);
+    width: 80px;
+    height: 40px;
+    line-height: 1.3;
+    padding: 10px;
+    font-size: 30px; }
+  /* line 43, ../sass/want.scss */
+  #want #quote .dollar {
+    margin-left: 10px;
+    position: absolute; }
+  /* line 48, ../sass/want.scss */
+  #want #quote .separator {
+    height: 20px;
+    width: 20px; }
+  /* line 55, ../sass/want.scss */
+  #want #quote .bqstart {
+    float: left;
+    font-size: 8.625em;
+    line-height: 1.04348em;
+    color: #1d2114;
+    font-family: Helvetica, Arial, sans-serif; }
+  /* line 64, ../sass/want.scss */
+  #want #quote .bqend {
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    font-size: 8.625em;
+    line-height: 1.04348em;
+    color: #1d2114; }
+  /* line 74, ../sass/want.scss */
+  #want #quote .bottom-bar {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    padding: 5px; }
+    /* line 80, ../sass/want.scss */
+    #want #quote .bottom-bar h2, #want #quote .bottom-bar img {
+      font-weight: 400;
+      float: left; }
+    /* line 84, ../sass/want.scss */
+    #want #quote .bottom-bar h2, #want #quote .bottom-bar span {
+      padding-left: 10px; }
+    /* line 87, ../sass/want.scss */
+    #want #quote .bottom-bar span {
+      font-family: 'AvenirNext LT Pro Cn'; }
+    /* line 90, ../sass/want.scss */
+    #want #quote .bottom-bar img {
+      margin-left: 20px; }
+    /* line 93, ../sass/want.scss */
+    #want #quote .bottom-bar .icon-trophy {
+      color: #e9c100; }
+    /* line 96, ../sass/want.scss */
+    #want #quote .bottom-bar .icon-frown {
+      color: #FF410A; }
+    /* line 99, ../sass/want.scss */
+    #want #quote .bottom-bar .price {
+      border-radius: 2px;
+      border-right: 3px solid #298C60;
+      border-left: 3px solid #298C60;
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      text-align: center;
+      background-color: #2CAC21;
+      width: 80px;
+      line-height: 30px;
+      height: 30px; }
+      /* line 103, ../sass/want.scss */
+      #want #quote .bottom-bar .price b {
+        font-family: 'AvenirNext LT Pro Cn';
+        border: 1px solid #0b2c08;
+        border-radius: 50%;
+        padding: 3px;
+        line-height: 30px; }
+      /* line 111, ../sass/want.scss */
+      #want #quote .bottom-bar .price span {
+        color: #0b2c08;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 0px;
+        padding: 0px 6px;
+        font-family: 'AvenirNext LT Pro';
+        float: left; }
+        /* line 119, ../sass/want.scss */
+        #want #quote .bottom-bar .price span:last-child {
+          float: right; }
+  @media (min-width: 1000px) {
+    /* line 136, ../sass/want.scss */
+    #want #quote textarea {
+      font-size: 2em;
+      line-height: 1.5em; }
+    /* line 139, ../sass/want.scss */
+    #want #quote p {
+      padding-top: 30px;
+      padding-right: 100px; }
+    /* line 145, ../sass/want.scss */
+    #want #quote .bqend {
+      margin-top: -100px; }
+    /* line 147, ../sass/want.scss */
+    #want #quote .bqstart {
+      margin-top: -20px; } }
+  @media (max-width: 1000px) and (min-width: 681px) {
+    /* line 152, ../sass/want.scss */
+    #want #quote textarea {
+      font-size: 1.5em;
+      line-height: 2em;
+      line-height: 1.5em; }
+    /* line 156, ../sass/want.scss */
+    #want #quote p {
+      padding-top: 30px;
+      padding-right: 80px; }
+    /* line 160, ../sass/want.scss */
+    #want #quote .bqend {
+      margin-top: -60px; }
+    /* line 162, ../sass/want.scss */
+    #want #quote .bqstart {
+      margin-top: -10px; } }
+  @media (max-width: 680px) {
+    /* line 167, ../sass/want.scss */
+    #want #quote textarea {
+      font-size: 1.125em;
+      line-height: 1.33333em;
+      line-height: 1.5em; }
+    /* line 171, ../sass/want.scss */
+    #want #quote p {
+      padding-top: 30px;
+      padding-right: 60px; }
+    /* line 175, ../sass/want.scss */
+    #want #quote .bqend {
+      margin-top: -60px; }
+    /* line 177, ../sass/want.scss */
+    #want #quote .bqstart {
+      margin-top: 0px;
+      line-height: 1.5em !important; } }
+/* line 183, ../sass/want.scss */
+#want #vote {
+  width: 50%;
+  height: 200px;
+  margin: 0px auto; }
+  /* line 187, ../sass/want.scss */
+  #want #vote li {
+    display: table;
+    width: 100%;
+    float: left;
+    height: 100%; }
+  /* line 193, ../sass/want.scss */
+  #want #vote .table {
+    display: table-cell;
+    vertical-align: middle; }
+  /* line 197, ../sass/want.scss */
+  #want #vote span {
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 3.75em;
+    line-height: 1.2em;
+    border-radius: 50%;
+    line-height: 105px;
+    display: block;
+    background-color: #87C114;
+    color: white;
+    border: 3px solid #165611; }
+  /* line 210, ../sass/want.scss */
+  #want #vote .no {
+    border: 3px solid #6B1E00;
+    background-color: #ff271c; }
+/* line 216, ../sass/want.scss */
+#want #suggested-wrap {
+  overflow: hidden;
+  text-align: center;
+  width: 100%; }
+/* line 221, ../sass/want.scss */
+#want #suggested-matches {
+  height: 150px;
+  width: 80%;
+  display: table;
+  margin: 0px auto;
+  border-top: 2px solid rgba(45, 0, 0, 0.1);
+  border-width: 2px 0px;
+  width: 980px; }
+  /* line 228, ../sass/want.scss */
+  #want #suggested-matches li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle; }
+  /* line 233, ../sass/want.scss */
+  #want #suggested-matches li img {
+    margin: 0px 10px;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #e3e3e3; }
+  /* line 238, ../sass/want.scss */
+  #want #suggested-matches #plus {
+    width: 120px;
+    height: 120px;
+    font-size: 3.75em;
+    line-height: 1.2em;
+    line-height: 120px;
+    background-color: #c8f576;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #2CAC21; }
+
 /* vertical rythm goodness */
 /* line 61, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
@@ -320,23 +558,23 @@ html {
   font-size: 16px;
   line-height: 1.5em; }
 
-/* line 30, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 37, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 html, body {
   height: 100%; }
 
-/* line 41, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 body {
   font-family: 'AvenirNext LT Pro';
   font-weight: 300;
   margin-top: 70px; }
 
-/* line 47, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 #logo {
   font-family: 'Expletus Sans', cursive;
   font-size: 3em;
@@ -347,7 +585,7 @@ body {
   width: 100%;
   text-align: center; }
 
-/* line 57, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 #activity {
   cursor: pointer;
   position: absolute;
@@ -363,13 +601,13 @@ body {
   padding: 10px;
   text-align: center;
   letter-spacing: 3px; }
-  /* line 72, ../sass/screen.scss */
+  /* line 73, ../sass/screen.scss */
   #activity #inside {
     margin: 0px auto;
     width: 200px;
     display: block;
     position: relative; }
-    /* line 77, ../sass/screen.scss */
+    /* line 78, ../sass/screen.scss */
     #activity #inside .badge {
       width: 27px;
       height: 27px;
@@ -378,7 +616,7 @@ body {
       top: -3px;
       right: 22px; }
 
-/* line 88, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .badge {
   font-family: 'AvenirNext LT Pro Cn';
   background-color: #ff271c;
@@ -391,12 +629,12 @@ body {
   text-align: center;
   font-weight: 300;
   display: table; }
-  /* line 99, ../sass/screen.scss */
+  /* line 100, ../sass/screen.scss */
   .badge p {
     display: table-cell;
     vertical-align: middle;
     text-align: center; }
 
-/* line 106, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 .rounded {
   border-radius: 50%; }

@@ -11,6 +11,10 @@ exports.can = function(req, res){
   res.render('can');
 };
 
+exports.want = function(req, res){
+  res.render('want');
+};
+
 
 exports.partials = function (req, res) {
   var name = req.params.name;
