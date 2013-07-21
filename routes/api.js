@@ -150,16 +150,17 @@ exports.getAllRequestsWithMe = function(req, res) {
         }, "request", function (err, kittens) {
       if (err) // TODO handle err
         console.log(err);
-      console.log(kittens)
+      res.json(kittens);
+      //console.log(kittens)
     });
     // find all the requests that have me in the recommendation
 }
 
 exports.addResponse = function(req, res) {
     var p = req.body;
-    var reqId = req.param('reqId') || '51ebd277441ee9172a000002';
+    var reqId = req.param('reqId') || '51eb95fa4c896b32803e4c43';
     // comma separated list
-    var recommendList = req.param('recommended') || "Michael@gmail.com, janebrucelee@gmail.com, Joe@gmail.com";
+    var recommendList = req.param('recommended') || "Joe@gmail.com";
     var newResponse = {
         'author' : p.author || "janebrucelee@gmail.com",
         'name' : p.name || "Jane Lee",
