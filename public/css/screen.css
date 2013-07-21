@@ -289,22 +289,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 980px; }
   /* line 179, ../sass/can.scss */
   #can #suggested-matches li {
+    position: relative;
     display: table-cell;
     text-align: center;
     vertical-align: middle; }
-  /* line 184, ../sass/can.scss */
+  /* line 185, ../sass/can.scss */
   #can #suggested-matches li img {
     margin: 0px 10px;
     box-shadow: 0 0 0 3px #fff, 0 0 0 4px #e3e3e3; }
-  /* line 189, ../sass/can.scss */
+  /* line 190, ../sass/can.scss */
   #can #suggested-matches #plus {
     width: 120px;
     height: 120px;
     font-size: 3.75em;
     line-height: 1.2em;
     line-height: 120px;
+    padding-top: 5px;
+    color: white;
     background-color: #c8f576;
     box-shadow: 0 0 0 3px #fff, 0 0 0 4px #2CAC21; }
+
+/* line 206, ../sass/can.scss */
+.oh-yeah {
+  position: absolute;
+  top: 10;
+  margin: 0px auto;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.25em;
+  line-height: 1.2em;
+  border-radius: 50%;
+  line-height: 40px;
+  display: block;
+  background-color: #87C114;
+  color: white;
+  border: 3px solid #165611; }
 
 /* line 2, ../sass/want.scss */
 #want #quote {
@@ -718,7 +738,3 @@ body {
 /* line 189, ../sass/screen.scss */
 .icon-frown {
   color: #FF410A; }
-
-/* line 194, ../sass/screen.scss */
-.icon-plus {
-  color: white !important; }

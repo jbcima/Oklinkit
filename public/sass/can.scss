@@ -177,6 +177,7 @@
 		border-top: 2px solid rgba(#2D0000, 0.1);
 		border-width: 2px 0px;
 		li {
+			position: relative;
 			display: table-cell;
 			text-align: center;
 			vertical-align: middle;
@@ -190,10 +191,31 @@
 			width: 120px;
 			height: 120px;
 			@include adjust-font-size-to(60px);
-			line-height: 120px;
+			line-height: 120px; 
+			padding-top: 5px;
+			color: white;
 			background-color: $green;
 			box-shadow: 0 0 0 3px #fff, 0 0 0 4px #2CAC21;  
 		}
 	}
 
+}
+
+
+
+.oh-yeah {
+
+			position: absolute;
+			top: 10;
+			margin: 0px auto;
+			width: 40px;
+			height: 40px;
+			text-align: center;
+			@include adjust-font-size-to(20px);
+			border-radius: 50%;
+			line-height: 40px;
+			display: block;
+			background-color: #87C114;
+			color: white;
+			border: 3px solid darken(#2CAC21, 20%);
 }
