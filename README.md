@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Angular Express Seed
 
 Start an awesome app with AngularJS on the front, Express + Node on the back. This project is an
@@ -84,5 +83,3 @@ MIT
 Oklinkit
 ========
 
-Oklinkit
->>>>>>> ac8c25fae3e200a762be82c324c5071d67d1b97b
