@@ -102,7 +102,7 @@ exports.addRequest = function(req, res) {
         'request': {
            'author': p.author || "Bo@gmail.com",
            'name': p.name || "Bo Lau",
-           'description': p.description || "I'm looking for an interior designer to redesign my apartment",
+           'description': req.param('description') || "I'm looking for an interior designer to redesign my apartment",
            'date': p.date || "20130715",
            'expired': p.expired || false,
            'willing_to_pay': p.willing_to_pay || false,
@@ -114,7 +114,7 @@ exports.addRequest = function(req, res) {
     newCatchall.save(function(err) {
         if(err)
           res.send(204, "Add request: failed");
-        res.json(200);
+        res.redirect('/');
       });
 }
 
