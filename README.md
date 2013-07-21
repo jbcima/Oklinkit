@@ -8,6 +8,10 @@ But your first degree contacts may not be able to help you. However, they may kn
 
 
 
+####Install mongodb 
+
+Follow this tutorial [here](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/)
+
 ####Import dummy data
 
 Make sure your mongo daemon is running, and go to the top level of your directory, and type
