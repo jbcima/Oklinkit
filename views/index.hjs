@@ -31,10 +31,12 @@
           <li class="active" id="responses"><h4>Responses</h4></li>
           <li id="requests"><h4>Requests</h4></li>
         </ul>
+        <p class="intro">people who are interested:</p>
         <ul class="feed" id="feed-responses">
           <!-- <div class="price"><h3><span>$</span><b>52</b><span>$</span></h3></div> -->
         </ul>
         <ul class="feed" id="feed-requests" style="display: none;">
+          <li><div class="info"><div class="rqstbx cf"><span class="yes-btn">✔</span><span class="no-btn">✖</span></div><img src="http://placehold.it/100x100" class="rounded"><h2>' + data.request.name + '</h2><p>“' + data.request.description + '”</p><a href="mailto:' + data.request.author + '">' + data.request.author + '</a><br /><span><i class="icon-trophy"></i> ' + Math.floor((Math.random()*5)+1) +' &nbsp; <i class="icon-frown"></i> ' + Math.floor((Math.random()*5)+1) +'</span></div></li>
           <!-- <div class="price"><h3><span>$</span><b>52</b><span>$</span></h3></div> -->
         </ul>
       </div>

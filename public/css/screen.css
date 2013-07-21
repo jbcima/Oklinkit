@@ -692,14 +692,15 @@ body {
       /* line 131, ../sass/screen.scss */
       #activity-feed .feed li .info {
         width: 100%;
-        float: left; }
-      /* line 135, ../sass/screen.scss */
+        float: left;
+        position: relative; }
+      /* line 136, ../sass/screen.scss */
       #activity-feed .feed li h2 {
         font-weight: 400;
         font-size: 1.5em;
         line-height: 2em;
         line-height: 1.3em; }
-      /* line 140, ../sass/screen.scss */
+      /* line 141, ../sass/screen.scss */
       #activity-feed .feed li p {
         width: 75%;
         display: block;
@@ -707,17 +708,17 @@ body {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap; }
-      /* line 148, ../sass/screen.scss */
+      /* line 149, ../sass/screen.scss */
       #activity-feed .feed li a {
         margin: 4px 0px; }
-      /* line 154, ../sass/screen.scss */
+      /* line 155, ../sass/screen.scss */
       #activity-feed .feed li img {
         width: 100px;
         height: 100px;
         float: left;
         margin-right: 25px; }
 
-/* line 164, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 .badge {
   font-family: 'AvenirNext LT Pro Cn';
   background-color: #ff271c;
@@ -730,20 +731,67 @@ body {
   text-align: center;
   font-weight: 300;
   display: table; }
-  /* line 175, ../sass/screen.scss */
+  /* line 176, ../sass/screen.scss */
   .badge p {
     display: table-cell;
     vertical-align: middle;
     text-align: center; }
 
-/* line 182, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 .rounded {
   border-radius: 50%; }
 
-/* line 187, ../sass/screen.scss */
+/* line 188, ../sass/screen.scss */
 .icon-trophy {
   color: #e9c100; }
 
-/* line 190, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .icon-frown {
   color: #FF410A; }
+
+/* line 194, ../sass/screen.scss */
+.rqstbx {
+  height: 80px;
+  right: 0px;
+  width: 160px;
+  position: absolute; }
+
+/* line 200, ../sass/screen.scss */
+.yes-btn {
+  margin: 0px auto;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  font-size: 2.5em;
+  line-height: 1.2em;
+  border-radius: 50%;
+  line-height: 75px;
+  display: block;
+  background-color: #87C114;
+  color: white;
+  border: 3px solid #165611;
+  float: left; }
+
+/* line 214, ../sass/screen.scss */
+.no-btn {
+  margin: 0px auto;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  font-size: 2.5em;
+  line-height: 1.2em;
+  border-radius: 50%;
+  line-height: 75px;
+  display: block;
+  color: white;
+  border: 3px solid #6B1E00;
+  background-color: #ff271c;
+  float: left;
+  margin-left: 20px; }
+
+/* line 230, ../sass/screen.scss */
+.intro {
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.875em;
+  line-height: 1.6em; }
