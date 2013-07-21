@@ -20,7 +20,7 @@ $('#activity').on('click',function(){
 
 			$.get('http://localhost:3000/users/requests/me', function(data) {
 				$.each(data, function(key, data){
-				$('#feed-requests').append('<li><div class="info"><img src="http://placehold.it/100x100" class="rounded"><h2>' + data.request.name + '</h2><p>“' + data.request.description + '”</p><a href="mailto:' + data.request.author + '">' + data.request.author + '</a><br /><span><i class="icon-trophy"></i> ' + Math.floor((Math.random()*5)+1) +' &nbsp; <i class="icon-frown"></i> ' + Math.floor((Math.random()*5)+1) +'</span></div></li>');
+				$('#feed-requests').append('<li><div class="info"><div class="rqstbx cf"><span class="yes-btn">✔</span><span class="no-btn">✖</span></div><img src="http://placehold.it/100x100" class="rounded"><h2>' + data.request.name + '</h2><p>“' + data.request.description + '”</p><a href="mailto:' + data.request.author + '">' + data.request.author + '</a><br /><span><i class="icon-trophy"></i> ' + Math.floor((Math.random()*5)+1) +' &nbsp; <i class="icon-frown"></i> ' + Math.floor((Math.random()*5)+1) +'</span></div></li>');
 				});
 			});	
 

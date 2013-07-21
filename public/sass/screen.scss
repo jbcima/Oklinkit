@@ -131,6 +131,7 @@ body {
 			.info {
 				width: 100%;
 				float: left;
+				position: relative;
 			}
 			h2 {
 				font-weight: 400;
@@ -190,3 +191,38 @@ body {
 .icon-frown {
 	color: #FF410A;
 }
+.rqstbx {
+	height: 80px;
+	right: 0px;
+	width: 160px;
+	position: absolute;
+}
+		.yes-btn {
+			margin: 0px auto;
+			width: 70px;
+			height: 70px;
+			text-align: center;
+			@include adjust-font-size-to(40px);
+			border-radius: 50%;
+			line-height: 75px;
+			display: block;
+			background-color: #87C114;
+			color: white;
+			border: 3px solid darken(#2CAC21, 20%);
+			float: left;
+		}
+		.no-btn {
+			margin: 0px auto;
+			width: 70px;
+			height: 70px;
+			text-align: center;
+			@include adjust-font-size-to(40px);
+			border-radius: 50%;
+			line-height: 75px;
+			display: block;
+			color: white;
+			border: 3px solid #6B1E00;
+			background-color: $red;
+			float: left;
+			margin-left: 20px;
+		}
