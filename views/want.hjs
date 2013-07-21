@@ -42,10 +42,10 @@
 
       <div id="quote" class="cf">
         <form action="/requests/add" id="want-form" method="POST">
-          <h2>What?</h2>
+          <h2>What are you looking for?</h2>
           <textarea name="description" id="description"></textarea>
           <div class="separator"></div>
-          <h2>Paid Service?</h2>
+          <h2>Is this a paid Service?</h2>
           <div class="fixdiv"><b>$</b><input class="dollar" name="willing_to_pay" id="willing_to_pay"  maxlength="2" /></div>
           <div class="separator"></div>
           <h2>Skills: </h2>
