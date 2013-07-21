@@ -1,3 +1,7 @@
 $('#suggested-matches li').on('click', function() {
-	$(this).append('<span class="oh-yeah">✔</span>');
+	if($(this).children('.oh-yeah').length){
+		$(this).children('.oh-yeah').remove();
+	} else {
+		$(this).append('<span class="oh-yeah">✔</span>');
+	}
 })

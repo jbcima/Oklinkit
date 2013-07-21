@@ -1,4 +1,9 @@
 #can {
+#logo {
+	position: relative !important;
+	padding-top: 40px;
+}
+
 	#quote {
 		width: 80%;
 		background-color: lighten($black, 80%);
@@ -206,7 +211,8 @@
 .oh-yeah {
 
 			position: absolute;
-			top: 10;
+			top: 15px;
+			right: 20px;
 			margin: 0px auto;
 			width: 40px;
 			height: 40px;
