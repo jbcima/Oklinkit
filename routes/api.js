@@ -139,7 +139,7 @@ exports.getAllUserRequests = function(req, res) {
 
 exports.getAllUserResponses = function(req, res) {
     var p = req.body;
-    var author = p.author || "Joe@gmail.com"
+    var author = p.author || "Bo@gmail.com"
     Catchall.find({'request.author' : author}, "responses", function (err, kittens) {
       if (err) // TODO handle err
         console.log(err);
