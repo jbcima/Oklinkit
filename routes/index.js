@@ -7,8 +7,8 @@ exports.index = function(req, res){
   res.render('index');
 };
 
-exports.nameofroute = function(req, res){
-  res.render('nameofroute.html');
+exports.can = function(req, res){
+  res.render('can');
 };
 
 

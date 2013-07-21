@@ -1,0 +1,28 @@
+#home {
+	.buttons {
+		display: table;
+		vertical-align: table;
+		height: 100%;
+		width: 100%;
+	}
+	.button {
+		@include adjust-font-size-to(48px);
+		font-weight: 500;
+		padding: 30px;
+		margin: 0px auto;
+		text-align: center;
+		vertical-align: middle;
+		display: table-cell;
+		span {
+			display: inline-block;
+			border-bottom: 2px solid lighten($black, 70%);
+			padding: 0px 20px;
+		}
+		cursor: pointer;
+		&:hover {
+			span{
+				background-color: #FFFFAC;
+			}
+		}
+	}
+}

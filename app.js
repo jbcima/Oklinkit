@@ -51,6 +51,8 @@ if (app.get('env') === 'production') {
 app.get('/', routes.index);
 app.get('/partials/:name', routes.partials);
 
+app.get('/can', routes.can);
+
 // JSON API
 app.get('/api/name', api.name);
 

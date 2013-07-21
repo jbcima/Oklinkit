@@ -1,58 +1,402 @@
-/*
-Syntax error: File to import not found or unreadable: home.
-              Load paths:
-                /Users/jbcima/Documents/Oklinkit/public/sass
-                /Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets
-                /Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets
-                Compass::SpriteImporter
-        on line 10 of /Users/jbcima/Documents/Oklinkit/public/sass/screen.scss
+@import url(../fonts/font.css);
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
 
-Backtrace:
-/Users/jbcima/Documents/Oklinkit/public/sass/screen.scss:10
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/import_node.rb:67:in `import'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/import_node.rb:28:in `imported_file'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/import_node.rb:37:in `css_import?'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:217:in `visit_import'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:128:in `visit_root'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/root_node.rb:20:in `render'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/engine.rb:315:in `_render'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/engine.rb:262:in `render'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:140:in `compile'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:126:in `timed'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:139:in `compile'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/logger.rb:45:in `red'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:138:in `compile'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:118:in `compile_if_required'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:103:in `run'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:101:in `each'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:101:in `run'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:126:in `timed'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:100:in `run'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/commands/update_project.rb:45:in `perform'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/commands/base.rb:18:in `execute'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/commands/project_base.rb:19:in `execute'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/compass:43
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/compass:57:in `call'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/compass:57
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: home.\A               Load paths:\A                 /Users/jbcima/Documents/Oklinkit/public/sass\A                 /Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets\A                 /Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 10 of /Users/jbcima/Documents/Oklinkit/public/sass/screen.scss"; }
+/* line 22, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 11, ../sass/clearfix.scss */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+/* line 16, ../sass/clearfix.scss */
+.cf:after {
+  clear: both; }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 24, ../sass/clearfix.scss */
+.cf {
+  *zoom: 1; }
+
+/* colors */
+/* line 2, ../sass/home.scss */
+#home .buttons {
+  display: table;
+  vertical-align: table;
+  height: 100%;
+  width: 100%; }
+/* line 8, ../sass/home.scss */
+#home .button {
+  font-size: 3em;
+  line-height: 1.5em;
+  font-weight: 500;
+  padding: 30px;
+  margin: 0px auto;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  cursor: pointer; }
+  /* line 16, ../sass/home.scss */
+  #home .button span {
+    display: inline-block;
+    border-bottom: 2px solid #d2d9c1;
+    padding: 0px 20px; }
+  /* line 23, ../sass/home.scss */
+  #home .button:hover span {
+    background-color: #FFFFAC; }
+
+/* line 2, ../sass/can.scss */
+#can #quote {
+  width: 80%;
+  background-color: #e9ede0;
+  border: 4px solid rgba(45, 0, 0, 0.1);
+  border-radius: 2px;
+  height: 300px;
+  margin: 110px auto 0px;
+  position: relative; }
+  /* line 12, ../sass/can.scss */
+  #can #quote .bqstart {
+    float: left;
+    font-size: 8.625em;
+    line-height: 1.04348em;
+    color: #1d2114;
+    font-family: Helvetica, Arial, sans-serif; }
+  /* line 21, ../sass/can.scss */
+  #can #quote .bqend {
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    font-size: 8.625em;
+    line-height: 1.04348em;
+    color: #1d2114; }
+  /* line 31, ../sass/can.scss */
+  #can #quote .bottom-bar {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    padding: 5px; }
+    /* line 37, ../sass/can.scss */
+    #can #quote .bottom-bar h2, #can #quote .bottom-bar img {
+      font-weight: 400;
+      float: left; }
+    /* line 41, ../sass/can.scss */
+    #can #quote .bottom-bar h2, #can #quote .bottom-bar span {
+      padding-left: 10px; }
+    /* line 44, ../sass/can.scss */
+    #can #quote .bottom-bar span {
+      font-family: 'AvenirNext LT Pro Cn'; }
+    /* line 47, ../sass/can.scss */
+    #can #quote .bottom-bar img {
+      margin-left: 20px; }
+    /* line 50, ../sass/can.scss */
+    #can #quote .bottom-bar .icon-trophy {
+      color: #e9c100; }
+    /* line 53, ../sass/can.scss */
+    #can #quote .bottom-bar .icon-frown {
+      color: #FF410A; }
+    /* line 56, ../sass/can.scss */
+    #can #quote .bottom-bar .price {
+      border-radius: 2px;
+      border-right: 3px solid #298C60;
+      border-left: 3px solid #298C60;
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      text-align: center;
+      background-color: #2CAC21;
+      width: 80px;
+      line-height: 30px;
+      height: 30px; }
+      /* line 60, ../sass/can.scss */
+      #can #quote .bottom-bar .price b {
+        font-family: 'AvenirNext LT Pro Cn';
+        border: 1px solid #0b2c08;
+        border-radius: 50%;
+        padding: 3px;
+        line-height: 30px; }
+      /* line 68, ../sass/can.scss */
+      #can #quote .bottom-bar .price span {
+        color: #0b2c08;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 0px;
+        padding: 0px 6px;
+        font-family: 'AvenirNext LT Pro';
+        float: left; }
+        /* line 76, ../sass/can.scss */
+        #can #quote .bottom-bar .price span:last-child {
+          float: right; }
+  @media (min-width: 1000px) {
+    /* line 93, ../sass/can.scss */
+    #can #quote q {
+      font-size: 2em;
+      line-height: 1.5em; }
+    /* line 96, ../sass/can.scss */
+    #can #quote p {
+      padding-top: 30px;
+      padding-right: 100px; }
+    /* line 102, ../sass/can.scss */
+    #can #quote .bqend {
+      margin-top: -100px; }
+    /* line 104, ../sass/can.scss */
+    #can #quote .bqstart {
+      margin-top: -20px; } }
+  @media (max-width: 1000px) and (min-width: 681px) {
+    /* line 109, ../sass/can.scss */
+    #can #quote q {
+      font-size: 1.5em;
+      line-height: 2em;
+      line-height: 1.5em; }
+    /* line 113, ../sass/can.scss */
+    #can #quote p {
+      padding-top: 30px;
+      padding-right: 80px; }
+    /* line 117, ../sass/can.scss */
+    #can #quote .bqend {
+      margin-top: -60px; }
+    /* line 119, ../sass/can.scss */
+    #can #quote .bqstart {
+      margin-top: -10px; } }
+  @media (max-width: 680px) {
+    /* line 124, ../sass/can.scss */
+    #can #quote q {
+      font-size: 1.125em;
+      line-height: 1.33333em;
+      line-height: 1.5em; }
+    /* line 128, ../sass/can.scss */
+    #can #quote p {
+      padding-top: 30px;
+      padding-right: 60px; }
+    /* line 132, ../sass/can.scss */
+    #can #quote .bqend {
+      margin-top: -60px; }
+    /* line 134, ../sass/can.scss */
+    #can #quote .bqstart {
+      margin-top: 0px;
+      line-height: 1.5em !important; } }
+/* line 140, ../sass/can.scss */
+#can #vote {
+  width: 50%;
+  height: 200px;
+  margin: 0px auto; }
+  /* line 144, ../sass/can.scss */
+  #can #vote li {
+    display: table;
+    width: 50%;
+    float: left;
+    height: 100%; }
+  /* line 150, ../sass/can.scss */
+  #can #vote .table {
+    display: table-cell;
+    vertical-align: middle; }
+  /* line 154, ../sass/can.scss */
+  #can #vote span {
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 3.75em;
+    line-height: 1.2em;
+    border-radius: 50%;
+    line-height: 105px;
+    display: block;
+    background-color: #87C114;
+    color: white;
+    border: 3px solid #165611; }
+  /* line 167, ../sass/can.scss */
+  #can #vote .no {
+    border: 3px solid #6B1E00;
+    background-color: #ff271c; }
+/* line 173, ../sass/can.scss */
+#can #suggested-wrap {
+  overflow: hidden;
+  text-align: center;
+  width: 100%; }
+/* line 178, ../sass/can.scss */
+#can #suggested-matches {
+  height: 150px;
+  width: 80%;
+  display: table;
+  margin: 0px auto;
+  border-top: 2px solid rgba(45, 0, 0, 0.1);
+  border-width: 2px 0px;
+  width: 980px; }
+  /* line 185, ../sass/can.scss */
+  #can #suggested-matches li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle; }
+  /* line 190, ../sass/can.scss */
+  #can #suggested-matches li img {
+    margin: 0px 10px;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #e3e3e3; }
+  /* line 195, ../sass/can.scss */
+  #can #suggested-matches #plus {
+    width: 120px;
+    height: 120px;
+    font-size: 3.75em;
+    line-height: 1.2em;
+    line-height: 120px;
+    background-color: #c8f576;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #2CAC21; }
+
+/* vertical rythm goodness */
+/* line 61, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 100%; }
+
+/* line 64, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 16px;
+  line-height: 1.5em; }
+
+/* line 30, ../sass/screen.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 37, ../sass/screen.scss */
+html, body {
+  height: 100%; }
+
+/* line 41, ../sass/screen.scss */
+body {
+  font-family: 'AvenirNext LT Pro';
+  font-weight: 300;
+  margin-top: 70px; }
+
+/* line 47, ../sass/screen.scss */
+#logo {
+  font-family: 'Expletus Sans', cursive;
+  font-size: 3em;
+  line-height: 1.5em;
+  color: #d2d9c1;
+  bottom: 30px;
+  position: absolute;
+  width: 100%;
+  text-align: center; }
+
+/* line 57, ../sass/screen.scss */
+#activity {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  height: 70px;
+  font-size: 2em;
+  line-height: 1.5em;
+  font-weight: 300;
+  color: white;
+  background: black;
+  margin: 0px auto;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 3px; }
+  /* line 72, ../sass/screen.scss */
+  #activity #inside {
+    margin: 0px auto;
+    width: 200px;
+    display: block;
+    position: relative; }
+    /* line 77, ../sass/screen.scss */
+    #activity #inside .badge {
+      width: 27px;
+      height: 27px;
+      line-height: 27px;
+      position: absolute;
+      top: -3px;
+      right: 22px; }
+
+/* line 88, ../sass/screen.scss */
+.badge {
+  font-family: 'AvenirNext LT Pro Cn';
+  background-color: #ff271c;
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0px 2px 0px black;
+  font-size: 0.625em;
+  line-height: 2.4em;
+  padding: 0px;
+  text-align: center;
+  font-weight: 300;
+  display: table; }
+  /* line 99, ../sass/screen.scss */
+  .badge p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; }
+
+/* line 106, ../sass/screen.scss */
+.rounded {
+  border-radius: 50%; }
