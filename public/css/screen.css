@@ -618,7 +618,7 @@ body {
       top: -3px;
       right: 22px; }
 
-/* line 89, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .badge {
   font-family: 'AvenirNext LT Pro Cn';
   background-color: #ff271c;
@@ -631,12 +631,12 @@ body {
   text-align: center;
   font-weight: 300;
   display: table; }
-  /* line 100, ../sass/screen.scss */
+  /* line 104, ../sass/screen.scss */
   .badge p {
     display: table-cell;
     vertical-align: middle;
     text-align: center; }
 
-/* line 107, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 .rounded {
   border-radius: 50%; }

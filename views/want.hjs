@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Oklinkit - Can</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -18,7 +18,7 @@
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body id="home">
+    <body id="want">
   
       <div id="activity">
         <div id="inside">
@@ -26,20 +26,40 @@
           <div class="badge"><p>1</p></div>
         </div>
       </div>
-      <div id="activity-feed">
-        <div id="inside">
-        </div>
+
+      <div id="quote" class="cf">
+        <h2>What?</h2>
+        <textarea></textarea>
+        <div class="separator"></div>
+        <h2>Paid Service?</h2>
+        <div class="fixdiv"><b>$</b><input class="dollar"  maxlength="2" /></div>
+        <div class="separator"></div>
+        <h2>Skills: </h2>
+        <div class="fixdiv biginput cf"><input /></div>
+        <div class="separator"></div>
+        <!-- <q>
+          <span class="bqstart">“</span>
+          <p>I want someone to help me move. and take my podle to the mallo the mallo the mallI want someone to help me move.  d me move.  d me move.  dd</p>
+          <span class="bqend">”</span>
+        </q>
+        <div class="bottom-bar">
+          <img src="http://placehold.it/50x50" class="rounded">
+          <h2>Jeremy Cimafonte</h2><br />
+          <span><i class="icon-trophy"></i> 4 &nbsp; <i class="icon-frown"></i> 3</span>
+          <div class="price"><h3><span>$</span><b>52</b><span>$</span></h3></div>
+        </div> -->
       </div>
 
-      <div class="buttons">
-        <div id="want" class="button"><a href="/want">i want</a></div>
-        <div id="can" class="button"><a href="/can">i can</a></div>
-      </div>
+      <ul id="vote">
+        <li><div class="table"><span class="yes">&#10004;</span></div></li>
+      </ul>
+
+
       <div id="logo">Oklinkit</div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/can.js"></script>
     </body>
 </html>
