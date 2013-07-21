@@ -1,0 +1,1 @@
+$("#activity").on("click",function(){$("#activity-feed").slideToggle("750")});
