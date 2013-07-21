@@ -161,12 +161,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     #can #quote .bottom-bar img {
       margin-left: 20px; }
     /* line 50, ../sass/can.scss */
-    #can #quote .bottom-bar .icon-trophy {
-      color: #e9c100; }
-    /* line 53, ../sass/can.scss */
-    #can #quote .bottom-bar .icon-frown {
-      color: #FF410A; }
-    /* line 56, ../sass/can.scss */
     #can #quote .bottom-bar .price {
       border-radius: 2px;
       border-right: 3px solid #298C60;
@@ -179,14 +173,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
       width: 80px;
       line-height: 30px;
       height: 30px; }
-      /* line 60, ../sass/can.scss */
+      /* line 54, ../sass/can.scss */
       #can #quote .bottom-bar .price b {
         font-family: 'AvenirNext LT Pro Cn';
         border: 1px solid #0b2c08;
         border-radius: 50%;
         padding: 3px;
         line-height: 30px; }
-      /* line 68, ../sass/can.scss */
+      /* line 62, ../sass/can.scss */
       #can #quote .bottom-bar .price span {
         color: #0b2c08;
         font-weight: 400;
@@ -195,73 +189,73 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
         padding: 0px 6px;
         font-family: 'AvenirNext LT Pro';
         float: left; }
-        /* line 76, ../sass/can.scss */
+        /* line 70, ../sass/can.scss */
         #can #quote .bottom-bar .price span:last-child {
           float: right; }
   @media (min-width: 1000px) {
-    /* line 93, ../sass/can.scss */
+    /* line 87, ../sass/can.scss */
     #can #quote q {
       font-size: 2em;
       line-height: 1.5em; }
-    /* line 96, ../sass/can.scss */
+    /* line 90, ../sass/can.scss */
     #can #quote p {
       padding-top: 30px;
       padding-right: 100px; }
-    /* line 102, ../sass/can.scss */
+    /* line 96, ../sass/can.scss */
     #can #quote .bqend {
       margin-top: -100px; }
-    /* line 104, ../sass/can.scss */
+    /* line 98, ../sass/can.scss */
     #can #quote .bqstart {
       margin-top: -20px; } }
   @media (max-width: 1000px) and (min-width: 681px) {
-    /* line 109, ../sass/can.scss */
+    /* line 103, ../sass/can.scss */
     #can #quote q {
       font-size: 1.5em;
       line-height: 2em;
       line-height: 1.5em; }
-    /* line 113, ../sass/can.scss */
+    /* line 107, ../sass/can.scss */
     #can #quote p {
       padding-top: 30px;
       padding-right: 80px; }
-    /* line 117, ../sass/can.scss */
+    /* line 111, ../sass/can.scss */
     #can #quote .bqend {
       margin-top: -60px; }
-    /* line 119, ../sass/can.scss */
+    /* line 113, ../sass/can.scss */
     #can #quote .bqstart {
       margin-top: -10px; } }
   @media (max-width: 680px) {
-    /* line 124, ../sass/can.scss */
+    /* line 118, ../sass/can.scss */
     #can #quote q {
       font-size: 1.125em;
       line-height: 1.33333em;
       line-height: 1.5em; }
-    /* line 128, ../sass/can.scss */
+    /* line 122, ../sass/can.scss */
     #can #quote p {
       padding-top: 30px;
       padding-right: 60px; }
-    /* line 132, ../sass/can.scss */
+    /* line 126, ../sass/can.scss */
     #can #quote .bqend {
       margin-top: -60px; }
-    /* line 134, ../sass/can.scss */
+    /* line 128, ../sass/can.scss */
     #can #quote .bqstart {
       margin-top: 0px;
       line-height: 1.5em !important; } }
-/* line 140, ../sass/can.scss */
+/* line 134, ../sass/can.scss */
 #can #vote {
   width: 50%;
   height: 200px;
   margin: 0px auto; }
-  /* line 144, ../sass/can.scss */
+  /* line 138, ../sass/can.scss */
   #can #vote li {
     display: table;
     width: 50%;
     float: left;
     height: 100%; }
-  /* line 150, ../sass/can.scss */
+  /* line 144, ../sass/can.scss */
   #can #vote .table {
     display: table-cell;
     vertical-align: middle; }
-  /* line 154, ../sass/can.scss */
+  /* line 148, ../sass/can.scss */
   #can #vote span {
     margin: 0px auto;
     width: 100px;
@@ -275,16 +269,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     background-color: #87C114;
     color: white;
     border: 3px solid #165611; }
-  /* line 167, ../sass/can.scss */
+  /* line 161, ../sass/can.scss */
   #can #vote .no {
     border: 3px solid #6B1E00;
     background-color: #ff271c; }
-/* line 173, ../sass/can.scss */
+/* line 167, ../sass/can.scss */
 #can #suggested-wrap {
   overflow: hidden;
   text-align: center;
   width: 100%; }
-/* line 178, ../sass/can.scss */
+/* line 172, ../sass/can.scss */
 #can #suggested-matches {
   height: 150px;
   width: 80%;
@@ -293,16 +287,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-top: 2px solid rgba(45, 0, 0, 0.1);
   border-width: 2px 0px;
   width: 980px; }
-  /* line 185, ../sass/can.scss */
+  /* line 179, ../sass/can.scss */
   #can #suggested-matches li {
     display: table-cell;
     text-align: center;
     vertical-align: middle; }
-  /* line 190, ../sass/can.scss */
+  /* line 184, ../sass/can.scss */
   #can #suggested-matches li img {
     margin: 0px 10px;
     box-shadow: 0 0 0 3px #fff, 0 0 0 4px #e3e3e3; }
-  /* line 195, ../sass/can.scss */
+  /* line 189, ../sass/can.scss */
   #can #suggested-matches #plus {
     width: 120px;
     height: 120px;
@@ -574,14 +568,14 @@ html, body {
 body {
   font-family: 'AvenirNext LT Pro';
   font-weight: 300;
-  margin-top: 70px; }
+  padding-top: 70px; }
 
 /* line 48, ../sass/screen.scss */
 #logo {
   font-family: 'Expletus Sans', cursive;
   font-size: 3em;
   line-height: 1.5em;
-  color: #d2d9c1;
+  color: #bbc6a1;
   bottom: 30px;
   position: absolute;
   width: 100%;
@@ -589,6 +583,7 @@ body {
 
 /* line 58, ../sass/screen.scss */
 #activity {
+  z-index: 2;
   cursor: pointer;
   position: absolute;
   top: 0;
@@ -603,13 +598,13 @@ body {
   padding: 10px;
   text-align: center;
   letter-spacing: 3px; }
-  /* line 73, ../sass/screen.scss */
+  /* line 74, ../sass/screen.scss */
   #activity #inside {
     margin: 0px auto;
     width: 200px;
     display: block;
     position: relative; }
-    /* line 78, ../sass/screen.scss */
+    /* line 79, ../sass/screen.scss */
     #activity #inside .badge {
       width: 27px;
       height: 27px;
@@ -618,7 +613,82 @@ body {
       top: -3px;
       right: 22px; }
 
-/* line 93, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
+#activity-feed {
+  padding-top: 70px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: none;
+  box-shadow: 0px 2px 0px black;
+  z-index: 1; }
+  /* line 100, ../sass/screen.scss */
+  #activity-feed .toggle {
+    height: 75px;
+    border: 4px solid rgba(29, 33, 20, 0.1);
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: rgba(29, 33, 20, 0.2); }
+    /* line 107, ../sass/screen.scss */
+    #activity-feed .toggle li {
+      background: white;
+      width: 50%;
+      float: left;
+      text-align: center;
+      height: 100%;
+      display: table; }
+      /* line 108, ../sass/screen.scss */
+      #activity-feed .toggle li.active {
+        color: white;
+        background: rgba(29, 33, 20, 0.8); }
+      /* line 118, ../sass/screen.scss */
+      #activity-feed .toggle li h4 {
+        display: table-cell;
+        vertical-align: middle;
+        font-weight: 500;
+        font-size: 2em;
+        line-height: 1.5em; }
+  /* line 126, ../sass/screen.scss */
+  #activity-feed .feed {
+    width: 80%;
+    margin: 0px auto; }
+    /* line 129, ../sass/screen.scss */
+    #activity-feed .feed li {
+      padding: 15px;
+      height: 125px;
+      box-shadow: 0px 2px 0px black; }
+      /* line 130, ../sass/screen.scss */
+      #activity-feed .feed li .info {
+        width: 100%;
+        float: left; }
+      /* line 134, ../sass/screen.scss */
+      #activity-feed .feed li h2 {
+        font-weight: 400;
+        font-size: 1.5em;
+        line-height: 2em;
+        line-height: 1.3em; }
+      /* line 139, ../sass/screen.scss */
+      #activity-feed .feed li p {
+        width: 75%;
+        display: block;
+        height: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      /* line 147, ../sass/screen.scss */
+      #activity-feed .feed li a {
+        margin: 4px 0px; }
+      /* line 153, ../sass/screen.scss */
+      #activity-feed .feed li img {
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin-right: 25px; }
+
+/* line 163, ../sass/screen.scss */
 .badge {
   font-family: 'AvenirNext LT Pro Cn';
   background-color: #ff271c;
@@ -631,12 +701,20 @@ body {
   text-align: center;
   font-weight: 300;
   display: table; }
-  /* line 104, ../sass/screen.scss */
+  /* line 174, ../sass/screen.scss */
   .badge p {
     display: table-cell;
     vertical-align: middle;
     text-align: center; }
 
-/* line 111, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 .rounded {
   border-radius: 50%; }
+
+/* line 186, ../sass/screen.scss */
+.icon-trophy {
+  color: #e9c100; }
+
+/* line 189, ../sass/screen.scss */
+.icon-frown {
+  color: #FF410A; }
