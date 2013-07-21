@@ -226,3 +226,10 @@ body {
 			float: left;
 			margin-left: 20px;
 		}
+
+		.intro {
+			font-weight: 400;
+			text-align: center;
+			@include adjust-font-size-to(30px);
+
+		}

@@ -788,3 +788,10 @@ body {
   background-color: #ff271c;
   float: left;
   margin-left: 20px; }
+
+/* line 230, ../sass/screen.scss */
+.intro {
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.875em;
+  line-height: 1.6em; }
