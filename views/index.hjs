@@ -28,8 +28,8 @@
       </div>
 
       <div class="buttons">
-        <div id="want" class="button"><span>i want</span></div>
-        <div id="can" class="button"><span>i can</span></div>
+        <div id="want" class="button"><a href="/want">i want</a></div>
+        <div id="can" class="button"><a href="/can">i can</a></div>
       </div>
       <div id="logo">Oklinkit</div>
 

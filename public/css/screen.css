@@ -107,12 +107,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: table-cell;
   cursor: pointer; }
   /* line 16, ../sass/home.scss */
-  #home .button span {
+  #home .button a, #home .button a:link, #home .button a:visited {
+    color: #1d2114;
     display: inline-block;
     border-bottom: 2px solid #d2d9c1;
-    padding: 0px 20px; }
-  /* line 23, ../sass/home.scss */
-  #home .button:hover span {
+    padding: 0px 20px;
+    text-decoration: none; }
+  /* line 25, ../sass/home.scss */
+  #home .button:hover a {
     background-color: #FFFFAC; }
 
 /* line 2, ../sass/can.scss */
