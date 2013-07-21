@@ -158,7 +158,7 @@ exports.getAllRequestsWithMe = function(req, res) {
 
 exports.addResponse = function(req, res) {
     var p = req.body;
-    var reqId = req.param('reqId') || '51ebf06f59e53ecf30000002';
+    var reqId = req.param('reqId') || '51ebf7af6934b61732000002';
     // comma separated list
     var recommendList = req.param('recommended') || "Joe@gmail.com";
     var newResponse = {
