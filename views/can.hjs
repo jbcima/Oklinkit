@@ -26,6 +26,18 @@
           <div class="badge"><p>1</p></div>
         </div>
       </div>
+      <div id="activity-feed">
+        <ul class="toggle">
+          <li class="active" id="responses"><h4>Responses</h4></li>
+          <li id="requests"><h4>Requests</h4></li>
+        </ul>
+        <ul class="feed" id="feed-responses">
+          <!-- <div class="price"><h3><span>$</span><b>52</b><span>$</span></h3></div> -->
+        </ul>
+        <ul class="feed" id="feed-requests" style="display: none;">
+          <!-- <div class="price"><h3><span>$</span><b>52</b><span>$</span></h3></div> -->
+        </ul>
+      </div>
 
       <div id="quote">
         <q>
@@ -48,9 +60,9 @@
  
       <div id="suggested-wrap">
         <ul id="suggested-matches">
-          <li><img src="http://placehold.it/120x120" class="rounded"></li>
-          <li><img src="http://placehold.it/120x120" class="rounded"></li>
-          <li><img src="http://placehold.it/120x120" class="rounded"></li>
+          <li><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash4/c39.8.103.103/s100x100/1001849_10151957265185130_97250283_a.jpg" class="rounded"></li>
+          <li><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/c69.0.103.103/s100x100/993534_10201386643892146_338991402_a.jpg" class="rounded"></li>
+          <li><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash4/c34.13.103.103/s100x100/479861_4969708115613_2017577798_a.jpg" class="rounded"></li>
           <li><img src="http://placehold.it/120x120" class="rounded"></li>
           <li><img src="http://placehold.it/120x120" class="rounded"></li>
           <li><div id="plus" class="rounded"><i class="icon-plus"></i></li>
@@ -63,5 +75,6 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/can.js"></script>
+        <script src="js/activity.js"></script>
     </body>
 </html>
