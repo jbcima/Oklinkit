@@ -11,7 +11,6 @@ $('#activity').on('click',function(){
 			$('#feed-requests').empty();
 			$('#feed-responses').empty();
 			$.get('http://localhost:3000/users/responses/me', function(data) {
-				console.log(data);
 					$.each(data, function(key, data){
 						$.each(data.responses, function(key, data){
 						$('#feed-responses').append('<li><div class="info"><img src="http://placehold.it/100x100" class="rounded"><h2>' + data.name + '</h2><p>“' + data.body + '”</p><a href="mailto:' + data.author + '">' + data.author + '</a><br /><span><i class="icon-trophy"></i> ' + Math.floor((Math.random()*5)+1) +' &nbsp; <i class="icon-frown"></i> ' + Math.floor((Math.random()*5)+1) +'</span></div></li>');

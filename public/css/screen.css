@@ -89,13 +89,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   *zoom: 1; }
 
 /* colors */
-/* line 2, ../sass/home.scss */
+/* line 3, ../sass/home.scss */
 #home .buttons {
   display: table;
   vertical-align: table;
   height: 100%;
   width: 100%; }
-/* line 8, ../sass/home.scss */
+/* line 9, ../sass/home.scss */
 #home .button {
   font-size: 3em;
   line-height: 1.5em;
@@ -106,18 +106,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   vertical-align: middle;
   display: table-cell;
   cursor: pointer; }
-  /* line 16, ../sass/home.scss */
+  /* line 17, ../sass/home.scss */
   #home .button a, #home .button a:link, #home .button a:visited {
     color: #1d2114;
     display: inline-block;
     border-bottom: 2px solid #d2d9c1;
     padding: 0px 20px;
     text-decoration: none; }
-  /* line 25, ../sass/home.scss */
+  /* line 26, ../sass/home.scss */
   #home .button:hover a {
     background-color: #FFFFAC; }
 
 /* line 2, ../sass/can.scss */
+#can #logo {
+  position: relative !important;
+  padding-top: 30px; }
+/* line 7, ../sass/can.scss */
 #can #quote {
   width: 80%;
   background-color: #e9ede0;
@@ -126,41 +130,41 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 300px;
   margin: 110px auto 0px;
   position: relative; }
-  /* line 12, ../sass/can.scss */
+  /* line 17, ../sass/can.scss */
   #can #quote .bqstart {
     float: left;
     font-size: 8.625em;
     line-height: 1.04348em;
     color: #1d2114;
     font-family: Helvetica, Arial, sans-serif; }
-  /* line 21, ../sass/can.scss */
+  /* line 26, ../sass/can.scss */
   #can #quote .bqend {
     font-family: Helvetica, Arial, sans-serif;
     float: right;
     font-size: 8.625em;
     line-height: 1.04348em;
     color: #1d2114; }
-  /* line 31, ../sass/can.scss */
+  /* line 36, ../sass/can.scss */
   #can #quote .bottom-bar {
     width: 100%;
     height: 70px;
     position: absolute;
     bottom: 0;
     padding: 5px; }
-    /* line 37, ../sass/can.scss */
+    /* line 42, ../sass/can.scss */
     #can #quote .bottom-bar h2, #can #quote .bottom-bar img {
       font-weight: 400;
       float: left; }
-    /* line 41, ../sass/can.scss */
+    /* line 46, ../sass/can.scss */
     #can #quote .bottom-bar h2, #can #quote .bottom-bar span {
       padding-left: 10px; }
-    /* line 44, ../sass/can.scss */
+    /* line 49, ../sass/can.scss */
     #can #quote .bottom-bar span {
       font-family: 'AvenirNext LT Pro Cn'; }
-    /* line 47, ../sass/can.scss */
+    /* line 52, ../sass/can.scss */
     #can #quote .bottom-bar img {
       margin-left: 20px; }
-    /* line 50, ../sass/can.scss */
+    /* line 55, ../sass/can.scss */
     #can #quote .bottom-bar .price {
       border-radius: 2px;
       border-right: 3px solid #298C60;
@@ -173,14 +177,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
       width: 80px;
       line-height: 30px;
       height: 30px; }
-      /* line 54, ../sass/can.scss */
+      /* line 59, ../sass/can.scss */
       #can #quote .bottom-bar .price b {
         font-family: 'AvenirNext LT Pro Cn';
         border: 1px solid #0b2c08;
         border-radius: 50%;
         padding: 3px;
         line-height: 30px; }
-      /* line 62, ../sass/can.scss */
+      /* line 67, ../sass/can.scss */
       #can #quote .bottom-bar .price span {
         color: #0b2c08;
         font-weight: 400;
@@ -189,73 +193,73 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
         padding: 0px 6px;
         font-family: 'AvenirNext LT Pro';
         float: left; }
-        /* line 70, ../sass/can.scss */
+        /* line 75, ../sass/can.scss */
         #can #quote .bottom-bar .price span:last-child {
           float: right; }
   @media (min-width: 1000px) {
-    /* line 87, ../sass/can.scss */
+    /* line 92, ../sass/can.scss */
     #can #quote q {
       font-size: 2em;
       line-height: 1.5em; }
-    /* line 90, ../sass/can.scss */
+    /* line 95, ../sass/can.scss */
     #can #quote p {
       padding-top: 30px;
       padding-right: 100px; }
-    /* line 96, ../sass/can.scss */
+    /* line 101, ../sass/can.scss */
     #can #quote .bqend {
       margin-top: -100px; }
-    /* line 98, ../sass/can.scss */
+    /* line 103, ../sass/can.scss */
     #can #quote .bqstart {
       margin-top: -20px; } }
   @media (max-width: 1000px) and (min-width: 681px) {
-    /* line 103, ../sass/can.scss */
+    /* line 108, ../sass/can.scss */
     #can #quote q {
       font-size: 1.5em;
       line-height: 2em;
       line-height: 1.5em; }
-    /* line 107, ../sass/can.scss */
+    /* line 112, ../sass/can.scss */
     #can #quote p {
       padding-top: 30px;
       padding-right: 80px; }
-    /* line 111, ../sass/can.scss */
+    /* line 116, ../sass/can.scss */
     #can #quote .bqend {
       margin-top: -60px; }
-    /* line 113, ../sass/can.scss */
+    /* line 118, ../sass/can.scss */
     #can #quote .bqstart {
       margin-top: -10px; } }
   @media (max-width: 680px) {
-    /* line 118, ../sass/can.scss */
+    /* line 123, ../sass/can.scss */
     #can #quote q {
       font-size: 1.125em;
       line-height: 1.33333em;
       line-height: 1.5em; }
-    /* line 122, ../sass/can.scss */
+    /* line 127, ../sass/can.scss */
     #can #quote p {
       padding-top: 30px;
       padding-right: 60px; }
-    /* line 126, ../sass/can.scss */
+    /* line 131, ../sass/can.scss */
     #can #quote .bqend {
       margin-top: -60px; }
-    /* line 128, ../sass/can.scss */
+    /* line 133, ../sass/can.scss */
     #can #quote .bqstart {
       margin-top: 0px;
       line-height: 1.5em !important; } }
-/* line 134, ../sass/can.scss */
+/* line 139, ../sass/can.scss */
 #can #vote {
   width: 50%;
   height: 200px;
   margin: 0px auto; }
-  /* line 138, ../sass/can.scss */
+  /* line 143, ../sass/can.scss */
   #can #vote li {
     display: table;
     width: 50%;
     float: left;
     height: 100%; }
-  /* line 144, ../sass/can.scss */
+  /* line 149, ../sass/can.scss */
   #can #vote .table {
     display: table-cell;
     vertical-align: middle; }
-  /* line 148, ../sass/can.scss */
+  /* line 153, ../sass/can.scss */
   #can #vote span {
     margin: 0px auto;
     width: 100px;
@@ -269,16 +273,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     background-color: #87C114;
     color: white;
     border: 3px solid #165611; }
-  /* line 161, ../sass/can.scss */
+  /* line 166, ../sass/can.scss */
   #can #vote .no {
     border: 3px solid #6B1E00;
     background-color: #ff271c; }
-/* line 167, ../sass/can.scss */
+/* line 172, ../sass/can.scss */
 #can #suggested-wrap {
   overflow: hidden;
   text-align: center;
   width: 100%; }
-/* line 172, ../sass/can.scss */
+/* line 177, ../sass/can.scss */
 #can #suggested-matches {
   height: 150px;
   width: 80%;
@@ -287,17 +291,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-top: 2px solid rgba(45, 0, 0, 0.1);
   border-width: 2px 0px;
   width: 980px; }
-  /* line 179, ../sass/can.scss */
+  /* line 184, ../sass/can.scss */
   #can #suggested-matches li {
     position: relative;
     display: table-cell;
     text-align: center;
     vertical-align: middle; }
-  /* line 185, ../sass/can.scss */
+  /* line 190, ../sass/can.scss */
   #can #suggested-matches li img {
     margin: 0px 10px;
     box-shadow: 0 0 0 3px #fff, 0 0 0 4px #e3e3e3; }
-  /* line 190, ../sass/can.scss */
+  /* line 195, ../sass/can.scss */
   #can #suggested-matches #plus {
     width: 120px;
     height: 120px;
@@ -309,7 +313,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     background-color: #c8f576;
     box-shadow: 0 0 0 3px #fff, 0 0 0 4px #2CAC21; }
 
-/* line 206, ../sass/can.scss */
+/* line 211, ../sass/can.scss */
 .oh-yeah {
   position: absolute;
   top: 15px;
@@ -328,6 +332,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border: 3px solid #165611; }
 
 /* line 2, ../sass/want.scss */
+#want #logo {
+  position: relative !important;
+  padding-top: 10px; }
+/* line 7, ../sass/want.scss */
 #want #quote {
   width: 80%;
   padding: 20px;
@@ -337,13 +345,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin: 110px auto 0px;
   position: relative;
   text-align: center; }
-  /* line 10, ../sass/want.scss */
+  /* line 15, ../sass/want.scss */
   #want #quote h2 div {
     font-size: 0.375em;
     line-height: 4em;
     color: #2D0000;
     display: inline-block; }
-  /* line 15, ../sass/want.scss */
+  /* line 20, ../sass/want.scss */
   #want #quote h2, #want #quote span, #want #quote .fixdiv {
     font-weight: 500;
     font-size: 2.25em;
@@ -351,17 +359,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     width: 80%;
     text-align: left;
     margin: 0px auto; }
-  /* line 23, ../sass/want.scss */
+  /* line 28, ../sass/want.scss */
   #want #quote textarea {
     background-color: white;
     border: 4px solid rgba(45, 0, 0, 0.1);
     width: 80%;
     height: 150px;
     padding: 10px; }
-  /* line 30, ../sass/want.scss */
+  /* line 35, ../sass/want.scss */
   #want #quote .biginput input {
     width: 100% !important; }
-  /* line 33, ../sass/want.scss */
+  /* line 38, ../sass/want.scss */
   #want #quote input {
     float: left;
     background-color: white;
@@ -371,55 +379,55 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     line-height: 1.3;
     padding: 10px;
     font-size: 30px; }
-  /* line 43, ../sass/want.scss */
+  /* line 48, ../sass/want.scss */
   #want #quote .dollar {
     margin-left: 10px;
     position: absolute; }
-  /* line 48, ../sass/want.scss */
+  /* line 53, ../sass/want.scss */
   #want #quote .separator {
     height: 20px;
     width: 20px; }
-  /* line 55, ../sass/want.scss */
+  /* line 60, ../sass/want.scss */
   #want #quote .bqstart {
     float: left;
     font-size: 8.625em;
     line-height: 1.04348em;
     color: #1d2114;
     font-family: Helvetica, Arial, sans-serif; }
-  /* line 64, ../sass/want.scss */
+  /* line 69, ../sass/want.scss */
   #want #quote .bqend {
     font-family: Helvetica, Arial, sans-serif;
     float: right;
     font-size: 8.625em;
     line-height: 1.04348em;
     color: #1d2114; }
-  /* line 74, ../sass/want.scss */
+  /* line 79, ../sass/want.scss */
   #want #quote .bottom-bar {
     width: 100%;
     height: 70px;
     position: absolute;
     bottom: 0;
     padding: 5px; }
-    /* line 80, ../sass/want.scss */
+    /* line 85, ../sass/want.scss */
     #want #quote .bottom-bar h2, #want #quote .bottom-bar img {
       font-weight: 400;
       float: left; }
-    /* line 84, ../sass/want.scss */
+    /* line 89, ../sass/want.scss */
     #want #quote .bottom-bar h2, #want #quote .bottom-bar span {
       padding-left: 10px; }
-    /* line 87, ../sass/want.scss */
+    /* line 92, ../sass/want.scss */
     #want #quote .bottom-bar span {
       font-family: 'AvenirNext LT Pro Cn'; }
-    /* line 90, ../sass/want.scss */
+    /* line 95, ../sass/want.scss */
     #want #quote .bottom-bar img {
       margin-left: 20px; }
-    /* line 93, ../sass/want.scss */
+    /* line 98, ../sass/want.scss */
     #want #quote .bottom-bar .icon-trophy {
       color: #e9c100; }
-    /* line 96, ../sass/want.scss */
+    /* line 101, ../sass/want.scss */
     #want #quote .bottom-bar .icon-frown {
       color: #FF410A; }
-    /* line 99, ../sass/want.scss */
+    /* line 104, ../sass/want.scss */
     #want #quote .bottom-bar .price {
       border-radius: 2px;
       border-right: 3px solid #298C60;
@@ -432,14 +440,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
       width: 80px;
       line-height: 30px;
       height: 30px; }
-      /* line 103, ../sass/want.scss */
+      /* line 108, ../sass/want.scss */
       #want #quote .bottom-bar .price b {
         font-family: 'AvenirNext LT Pro Cn';
         border: 1px solid #0b2c08;
         border-radius: 50%;
         padding: 3px;
         line-height: 30px; }
-      /* line 111, ../sass/want.scss */
+      /* line 116, ../sass/want.scss */
       #want #quote .bottom-bar .price span {
         color: #0b2c08;
         font-weight: 400;
@@ -448,73 +456,73 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
         padding: 0px 6px;
         font-family: 'AvenirNext LT Pro';
         float: left; }
-        /* line 119, ../sass/want.scss */
+        /* line 124, ../sass/want.scss */
         #want #quote .bottom-bar .price span:last-child {
           float: right; }
   @media (min-width: 1000px) {
-    /* line 136, ../sass/want.scss */
+    /* line 141, ../sass/want.scss */
     #want #quote textarea {
       font-size: 2em;
       line-height: 1.5em; }
-    /* line 139, ../sass/want.scss */
+    /* line 144, ../sass/want.scss */
     #want #quote p {
       padding-top: 30px;
       padding-right: 100px; }
-    /* line 145, ../sass/want.scss */
+    /* line 150, ../sass/want.scss */
     #want #quote .bqend {
       margin-top: -100px; }
-    /* line 147, ../sass/want.scss */
+    /* line 152, ../sass/want.scss */
     #want #quote .bqstart {
       margin-top: -20px; } }
   @media (max-width: 1000px) and (min-width: 681px) {
-    /* line 152, ../sass/want.scss */
+    /* line 157, ../sass/want.scss */
     #want #quote textarea {
       font-size: 1.5em;
       line-height: 2em;
       line-height: 1.5em; }
-    /* line 156, ../sass/want.scss */
+    /* line 161, ../sass/want.scss */
     #want #quote p {
       padding-top: 30px;
       padding-right: 80px; }
-    /* line 160, ../sass/want.scss */
+    /* line 165, ../sass/want.scss */
     #want #quote .bqend {
       margin-top: -60px; }
-    /* line 162, ../sass/want.scss */
+    /* line 167, ../sass/want.scss */
     #want #quote .bqstart {
       margin-top: -10px; } }
   @media (max-width: 680px) {
-    /* line 167, ../sass/want.scss */
+    /* line 172, ../sass/want.scss */
     #want #quote textarea {
       font-size: 1.125em;
       line-height: 1.33333em;
       line-height: 1.5em; }
-    /* line 171, ../sass/want.scss */
+    /* line 176, ../sass/want.scss */
     #want #quote p {
       padding-top: 30px;
       padding-right: 60px; }
-    /* line 175, ../sass/want.scss */
+    /* line 180, ../sass/want.scss */
     #want #quote .bqend {
       margin-top: -60px; }
-    /* line 177, ../sass/want.scss */
+    /* line 182, ../sass/want.scss */
     #want #quote .bqstart {
       margin-top: 0px;
       line-height: 1.5em !important; } }
-/* line 183, ../sass/want.scss */
+/* line 188, ../sass/want.scss */
 #want #vote {
   width: 50%;
   height: 200px;
   margin: 0px auto; }
-  /* line 187, ../sass/want.scss */
+  /* line 192, ../sass/want.scss */
   #want #vote li {
     display: table;
     width: 100%;
     float: left;
     height: 100%; }
-  /* line 193, ../sass/want.scss */
+  /* line 198, ../sass/want.scss */
   #want #vote .table {
     display: table-cell;
     vertical-align: middle; }
-  /* line 197, ../sass/want.scss */
+  /* line 202, ../sass/want.scss */
   #want #vote span {
     margin: 0px auto;
     width: 100px;
@@ -528,16 +536,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     background-color: #87C114;
     color: white;
     border: 3px solid #165611; }
-  /* line 210, ../sass/want.scss */
+  /* line 215, ../sass/want.scss */
   #want #vote .no {
     border: 3px solid #6B1E00;
     background-color: #ff271c; }
-/* line 216, ../sass/want.scss */
+/* line 221, ../sass/want.scss */
 #want #suggested-wrap {
   overflow: hidden;
   text-align: center;
   width: 100%; }
-/* line 221, ../sass/want.scss */
+/* line 226, ../sass/want.scss */
 #want #suggested-matches {
   height: 150px;
   width: 80%;
@@ -546,16 +554,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-top: 2px solid rgba(45, 0, 0, 0.1);
   border-width: 2px 0px;
   width: 980px; }
-  /* line 228, ../sass/want.scss */
+  /* line 233, ../sass/want.scss */
   #want #suggested-matches li {
     display: table-cell;
     text-align: center;
     vertical-align: middle; }
-  /* line 233, ../sass/want.scss */
+  /* line 238, ../sass/want.scss */
   #want #suggested-matches li img {
     margin: 0px 10px;
     box-shadow: 0 0 0 3px #fff, 0 0 0 4px #e3e3e3; }
-  /* line 238, ../sass/want.scss */
+  /* line 243, ../sass/want.scss */
   #want #suggested-matches #plus {
     width: 120px;
     height: 120px;
@@ -602,7 +610,7 @@ body {
   width: 100%;
   text-align: center; }
 
-/* line 58, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 #activity {
   z-index: 2;
   cursor: pointer;
@@ -619,13 +627,13 @@ body {
   padding: 10px;
   text-align: center;
   letter-spacing: 3px; }
-  /* line 74, ../sass/screen.scss */
+  /* line 75, ../sass/screen.scss */
   #activity #inside {
     margin: 0px auto;
     width: 200px;
     display: block;
     position: relative; }
-    /* line 79, ../sass/screen.scss */
+    /* line 80, ../sass/screen.scss */
     #activity #inside .badge {
       width: 27px;
       height: 27px;
@@ -634,7 +642,7 @@ body {
       top: -3px;
       right: 22px; }
 
-/* line 90, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 #activity-feed {
   padding-top: 70px;
   position: absolute;
@@ -645,7 +653,7 @@ body {
   display: none;
   box-shadow: 0px 2px 0px black;
   z-index: 1; }
-  /* line 100, ../sass/screen.scss */
+  /* line 101, ../sass/screen.scss */
   #activity-feed .toggle {
     height: 75px;
     border: 4px solid rgba(29, 33, 20, 0.1);
@@ -653,7 +661,7 @@ body {
     margin: 20px auto;
     border-radius: 5px;
     background: rgba(29, 33, 20, 0.2); }
-    /* line 107, ../sass/screen.scss */
+    /* line 108, ../sass/screen.scss */
     #activity-feed .toggle li {
       background: white;
       width: 50%;
@@ -661,37 +669,37 @@ body {
       text-align: center;
       height: 100%;
       display: table; }
-      /* line 108, ../sass/screen.scss */
+      /* line 109, ../sass/screen.scss */
       #activity-feed .toggle li.active {
         color: white;
         background: rgba(29, 33, 20, 0.8); }
-      /* line 118, ../sass/screen.scss */
+      /* line 119, ../sass/screen.scss */
       #activity-feed .toggle li h4 {
         display: table-cell;
         vertical-align: middle;
         font-weight: 500;
         font-size: 2em;
         line-height: 1.5em; }
-  /* line 126, ../sass/screen.scss */
+  /* line 127, ../sass/screen.scss */
   #activity-feed .feed {
     width: 80%;
     margin: 0px auto; }
-    /* line 129, ../sass/screen.scss */
+    /* line 130, ../sass/screen.scss */
     #activity-feed .feed li {
       padding: 15px;
       height: 125px;
       box-shadow: 0px 2px 0px black; }
-      /* line 130, ../sass/screen.scss */
+      /* line 131, ../sass/screen.scss */
       #activity-feed .feed li .info {
         width: 100%;
         float: left; }
-      /* line 134, ../sass/screen.scss */
+      /* line 135, ../sass/screen.scss */
       #activity-feed .feed li h2 {
         font-weight: 400;
         font-size: 1.5em;
         line-height: 2em;
         line-height: 1.3em; }
-      /* line 139, ../sass/screen.scss */
+      /* line 140, ../sass/screen.scss */
       #activity-feed .feed li p {
         width: 75%;
         display: block;
@@ -699,17 +707,17 @@ body {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap; }
-      /* line 147, ../sass/screen.scss */
+      /* line 148, ../sass/screen.scss */
       #activity-feed .feed li a {
         margin: 4px 0px; }
-      /* line 153, ../sass/screen.scss */
+      /* line 154, ../sass/screen.scss */
       #activity-feed .feed li img {
         width: 100px;
         height: 100px;
         float: left;
         margin-right: 25px; }
 
-/* line 163, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .badge {
   font-family: 'AvenirNext LT Pro Cn';
   background-color: #ff271c;
@@ -722,20 +730,20 @@ body {
   text-align: center;
   font-weight: 300;
   display: table; }
-  /* line 174, ../sass/screen.scss */
+  /* line 175, ../sass/screen.scss */
   .badge p {
     display: table-cell;
     vertical-align: middle;
     text-align: center; }
 
-/* line 181, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 .rounded {
   border-radius: 50%; }
 
-/* line 186, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 .icon-trophy {
   color: #e9c100; }
 
-/* line 189, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .icon-frown {
   color: #FF410A; }
