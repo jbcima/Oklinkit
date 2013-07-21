@@ -3,19 +3,28 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
+@import "compass";
 @import "compass/css3";
-@import "../fonts/font.css";
-
-@import "home";
-
+@import "compass/reset";
+@import "clearfix";
 
 /* colors */
-$yellow-light: #FFFFBB;
-$yellow-dark: #FFFFAC;
-$red: #FF0200;
+$black: #1D2114;
 $white: #FFFFFF;
-$black: #333;
+$red: #FF271C;
+$green: #C8F576;
+$blue: #0063FE;
+
+
+@import "../fonts/font.css";
+@import "home.scss";
+@import "can.scss";
+
+/* vertical rythm goodness */
+$base-font-size: 16px;
+$base-line-height: 24px;
+@include establish-baseline;
+
 
 
 * {
@@ -24,8 +33,76 @@ $black: #333;
   box-sizing: border-box; 
 }
 
+html, body
+{
+    height: 100%;
+}
 
 body {
 	font-family: 'AvenirNext LT Pro';
+	font-weight: 300;
+	margin-top: 70px;
 }
 
+#logo {
+	font-family: 'Expletus Sans', cursive;
+	@include adjust-font-size-to(48px);
+	color: lighten($black, 70%);
+	bottom: 30px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+	#activity {
+		cursor: pointer;
+		position: absolute; 
+		top: 0;
+		height: 70px;
+		@include adjust-font-size-to(32px);
+		font-weight: 300;
+		color: white;
+		background: black;
+		margin: 0px auto;
+		width: 100%;
+		padding: 10px;
+		text-align: center;
+		letter-spacing: 3px;
+
+		#inside {
+			margin: 0px auto;
+			width: 200px;
+			display: block;
+			position: relative;
+			.badge {
+				width: 27px;
+				height: 27px;
+				line-height: 27px;
+				position: absolute;
+				top: -3px;
+				right: 22px;
+			}
+		}
+	}
+
+.badge {
+	font-family: 'AvenirNext LT Pro Cn';
+	background-color: $red;
+	border: 2px solid white;
+	border-radius: 50%;
+	box-shadow: 0px 2px 0px black;
+	@include adjust-font-size-to(10px);
+	padding: 0px;
+	text-align: center; 
+	font-weight: 300;
+	display: table;
+	p {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center; 
+	}
+}
+
+.rounded {
+	border-radius: 50%;
+}
