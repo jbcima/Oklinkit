@@ -143,7 +143,7 @@ exports.getAllUserResponses = function(req, res) {
     Catchall.find({'request.author' : author}, "responses", function (err, kittens) {
       if (err) // TODO handle err
         console.log(err);
-      console.log(kittens)
+      res.json(kittens);
     });
 }
 
