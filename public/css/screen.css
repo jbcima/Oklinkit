@@ -119,45 +119,54 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 #can #quote {
   width: 80%;
   background-color: #e9ede0;
+  border: 4px solid rgba(45, 0, 0, 0.1);
+  border-radius: 2px;
   height: 300px;
-  margin: 110px auto;
+  margin: 110px auto 0px;
   position: relative; }
-  /* line 10, ../sass/can.scss */
+  /* line 12, ../sass/can.scss */
   #can #quote .bqstart {
     float: left;
     font-size: 8.625em;
     line-height: 1.04348em;
     color: #1d2114;
     font-family: Helvetica, Arial, sans-serif; }
-  /* line 19, ../sass/can.scss */
+  /* line 21, ../sass/can.scss */
   #can #quote .bqend {
     font-family: Helvetica, Arial, sans-serif;
     float: right;
     font-size: 8.625em;
     line-height: 1.04348em;
     color: #1d2114; }
-  /* line 29, ../sass/can.scss */
+  /* line 31, ../sass/can.scss */
   #can #quote .bottom-bar {
     width: 100%;
     height: 70px;
     position: absolute;
     bottom: 0;
     padding: 5px; }
-    /* line 35, ../sass/can.scss */
+    /* line 37, ../sass/can.scss */
     #can #quote .bottom-bar h2, #can #quote .bottom-bar img {
       font-weight: 400;
       float: left; }
-    /* line 39, ../sass/can.scss */
+    /* line 41, ../sass/can.scss */
     #can #quote .bottom-bar h2, #can #quote .bottom-bar span {
       padding-left: 10px; }
-    /* line 42, ../sass/can.scss */
+    /* line 44, ../sass/can.scss */
     #can #quote .bottom-bar span {
       font-family: 'AvenirNext LT Pro Cn'; }
-    /* line 45, ../sass/can.scss */
+    /* line 47, ../sass/can.scss */
     #can #quote .bottom-bar img {
       margin-left: 20px; }
-    /* line 48, ../sass/can.scss */
+    /* line 50, ../sass/can.scss */
+    #can #quote .bottom-bar .icon-trophy {
+      color: #e9c100; }
+    /* line 53, ../sass/can.scss */
+    #can #quote .bottom-bar .icon-frown {
+      color: #FF410A; }
+    /* line 56, ../sass/can.scss */
     #can #quote .bottom-bar .price {
+      border-radius: 2px;
       border-right: 3px solid #298C60;
       border-left: 3px solid #298C60;
       position: absolute;
@@ -168,14 +177,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
       width: 80px;
       line-height: 30px;
       height: 30px; }
-      /* line 51, ../sass/can.scss */
+      /* line 60, ../sass/can.scss */
       #can #quote .bottom-bar .price b {
         font-family: 'AvenirNext LT Pro Cn';
         border: 1px solid #0b2c08;
         border-radius: 50%;
         padding: 3px;
         line-height: 30px; }
-      /* line 59, ../sass/can.scss */
+      /* line 68, ../sass/can.scss */
       #can #quote .bottom-bar .price span {
         color: #0b2c08;
         font-weight: 400;
@@ -184,57 +193,122 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
         padding: 0px 6px;
         font-family: 'AvenirNext LT Pro';
         float: left; }
-        /* line 67, ../sass/can.scss */
+        /* line 76, ../sass/can.scss */
         #can #quote .bottom-bar .price span:last-child {
           float: right; }
   @media (min-width: 1000px) {
-    /* line 84, ../sass/can.scss */
+    /* line 93, ../sass/can.scss */
     #can #quote q {
       font-size: 2em;
       line-height: 1.5em; }
-    /* line 87, ../sass/can.scss */
+    /* line 96, ../sass/can.scss */
     #can #quote p {
       padding-top: 30px;
       padding-right: 100px; }
-    /* line 93, ../sass/can.scss */
+    /* line 102, ../sass/can.scss */
     #can #quote .bqend {
       margin-top: -100px; }
-    /* line 95, ../sass/can.scss */
+    /* line 104, ../sass/can.scss */
     #can #quote .bqstart {
       margin-top: -20px; } }
   @media (max-width: 1000px) and (min-width: 681px) {
-    /* line 100, ../sass/can.scss */
+    /* line 109, ../sass/can.scss */
     #can #quote q {
       font-size: 1.5em;
       line-height: 2em;
       line-height: 1.5em; }
-    /* line 104, ../sass/can.scss */
+    /* line 113, ../sass/can.scss */
     #can #quote p {
       padding-top: 30px;
       padding-right: 80px; }
-    /* line 108, ../sass/can.scss */
+    /* line 117, ../sass/can.scss */
     #can #quote .bqend {
       margin-top: -60px; }
-    /* line 110, ../sass/can.scss */
+    /* line 119, ../sass/can.scss */
     #can #quote .bqstart {
       margin-top: -10px; } }
   @media (max-width: 680px) {
-    /* line 115, ../sass/can.scss */
+    /* line 124, ../sass/can.scss */
     #can #quote q {
       font-size: 1.125em;
       line-height: 1.33333em;
       line-height: 1.5em; }
-    /* line 119, ../sass/can.scss */
+    /* line 128, ../sass/can.scss */
     #can #quote p {
       padding-top: 30px;
       padding-right: 60px; }
-    /* line 123, ../sass/can.scss */
+    /* line 132, ../sass/can.scss */
     #can #quote .bqend {
       margin-top: -60px; }
-    /* line 125, ../sass/can.scss */
+    /* line 134, ../sass/can.scss */
     #can #quote .bqstart {
       margin-top: 0px;
       line-height: 1.5em !important; } }
+/* line 140, ../sass/can.scss */
+#can #vote {
+  width: 50%;
+  height: 200px;
+  margin: 0px auto; }
+  /* line 144, ../sass/can.scss */
+  #can #vote li {
+    display: table;
+    width: 50%;
+    float: left;
+    height: 100%; }
+  /* line 150, ../sass/can.scss */
+  #can #vote .table {
+    display: table-cell;
+    vertical-align: middle; }
+  /* line 154, ../sass/can.scss */
+  #can #vote span {
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 3.75em;
+    line-height: 1.2em;
+    border-radius: 50%;
+    line-height: 105px;
+    display: block;
+    background-color: #87C114;
+    color: white;
+    border: 3px solid #165611; }
+  /* line 167, ../sass/can.scss */
+  #can #vote .no {
+    border: 3px solid #6B1E00;
+    background-color: #ff271c; }
+/* line 173, ../sass/can.scss */
+#can #suggested-wrap {
+  overflow: hidden;
+  text-align: center;
+  width: 100%; }
+/* line 178, ../sass/can.scss */
+#can #suggested-matches {
+  height: 150px;
+  width: 80%;
+  display: table;
+  margin: 0px auto;
+  border-top: 2px solid rgba(45, 0, 0, 0.1);
+  border-width: 2px 0px;
+  width: 980px; }
+  /* line 185, ../sass/can.scss */
+  #can #suggested-matches li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle; }
+  /* line 190, ../sass/can.scss */
+  #can #suggested-matches li img {
+    margin: 0px 10px;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #e3e3e3; }
+  /* line 195, ../sass/can.scss */
+  #can #suggested-matches #plus {
+    width: 120px;
+    height: 120px;
+    font-size: 3.75em;
+    line-height: 1.2em;
+    line-height: 120px;
+    background-color: #c8f576;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #2CAC21; }
 
 /* vertical rythm goodness */
 /* line 61, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
