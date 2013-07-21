@@ -137,6 +137,16 @@ exports.getAllUserRequests = function(req, res) {
     });
 }
 
+exports.getAllUserResponses = function(req, res) {
+    var p = req.body;
+    var author = p.author || "Joe@gmail.com"
+    Catchall.find({'request.author' : author}, "responses", function (err, kittens) {
+      if (err) // TODO handle err
+        console.log(err);
+      console.log(kittens)
+    });
+}
+
 // Get all requests where I'm recommended
 exports.getAllRequestsWithMe = function(req, res) {
     var p = req.body;

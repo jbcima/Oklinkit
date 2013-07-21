@@ -101,6 +101,7 @@ app.get('/fb/friends', function(req, res) {
 app.get('/users/add', api.addUser);
 app.get('/user/requests', api.getAllUserRequests);
 app.get('/users/requests/me', api.getAllRequestsWithMe);
+app.get('/users/responses/me', api.getAllUserResponses);
 app.get('/users', api.getAllUsers);
 app.get('/requests/add', api.addRequest);
 app.get('/requests', api.getAllRequests);
